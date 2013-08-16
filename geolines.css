@@ -59,7 +59,7 @@
   ::detachment-markers["symbol"=222],["symbol"=299] {
     marker-spacing: 45;
     marker-placement: line;
-    marker-file: url("detachment.svg");
+    marker-file: url("svg/detachment.svg");
     marker-transform: "rotate(180) translate(0 -3) scale(0.6)";
     [zoom < 9] {
       marker-spacing: 9999;
@@ -70,7 +70,7 @@
   ::thrust-markers["symbol"=295],["symbol"=206] {
     marker-spacing: 15;
     marker-placement: line;
-    marker-file: url("triangle.svg");
+    marker-file: url("svg/triangle.svg");
     marker-transform: "rotate(180) translate(0 -3) scale(0.6)";
     [zoom < 9] {
       marker-spacing: 9999;
@@ -80,7 +80,7 @@
   /*High-Angle Faults*/
   ::high-angle-marker["symbol"=126] {
     marker-placement: line;
-    marker-file: url("high-angle.svg");
+    marker-file: url("svg/high-angle.svg");
     marker-transform: "rotate(180) translate(0 -4)";
     [zoom < 9] {
       marker-spacing: 9999;
@@ -90,7 +90,7 @@
   /*High-Angle Active Faults*/
   ::high-angle-marker["symbol"=307] {
     marker-placement: line;
-    marker-file: url("high-angle-active.svg");
+    marker-file: url("svg/high-angle-active.svg");
     marker-transform: "rotate(180) translate(0 -9)";
     [zoom < 9] {
       marker-spacing: 9999;
