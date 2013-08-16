@@ -1,5 +1,6 @@
 The Geologic Map of Arizona
 ===========================
+![Geologic Map of Arizona](https://raw.github.com/azgs/geologic-map-of-arizona/master/geo-map-az.png)
 
 The Geologic Map of Arizona at 1:1,000,000-scale.
 
