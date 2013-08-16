@@ -20,7 +20,7 @@ Generally speaking, the data conforms to the [NCGMP09 database model](http://ncg
 
 There are two [CartoCSS](http://www.mapbox.com/tilemill/docs/manual/carto/) files included. These can be used to style the map in [TileMill](http://www.mapbox.com/tilemill/). They can also be read, so you could use a text editor and some smart find/replace and reshape them to do your bidding.
 - `mapunits.css`: Gives the polygons the appropriate color depending on thier `mapunit` attribute.
-- `geolines.css`: Styles the lines appropriately for visualization according to the [cartographic standards] that are common for geologic maps.
+- `geolines.css`: Styles the lines appropriately for visualization according to the [cartographic standards](https://github.com/rclark/geocarto) that are common for geologic maps.
 
 ## Open to Alternatives:
 GeoJSON can be used in a large number of applications. If you need the data in another format, you have loads of options for transformation. One thing you could try is http://geoproxy.worbly.org:
