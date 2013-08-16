@@ -22,6 +22,7 @@ Generally speaking, the data conforms to the [NCGMP09 database model](http://ncg
 
 ## Need some other format?
 GeoJSON can be used in a large number of applications. If you need the data in another format, you have loads of options for transformation. You could try http://geoproxy.worbly.org:
+
 1. Copy the URL for one of these files:
 
   - https://raw.github.com/azgs/geologic-map-of-arizona/master/mapunitpolys.geojson
