@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Geologic Map of Arizona</title>
+        <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+        <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+        <!--[if lte IE 8]>
+            <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'>
+        <![endif]-->
+        <style>
+            html, body, #map { height: 100%; width: 100%; margin: 0; padding: 0; }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script>
+            var map = L.mapbox.map('map', 'rclark.map-d4ubicoz');
+            L.mapbox.tileLayer('rclark.map-t7ep1mrm').addTo(map);
+        </script>
+    </body>
+</html>
