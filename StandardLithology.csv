@@ -1,0 +1,200 @@
+standardlithology_id,mapunit,parttype,lithology,proportionterm,proportionvalue,scientificconfidence,datasourceid
+GMA.StandardLithology.55,Q,Not Assigned,Sand (sandy sediment),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.54,Q,Not Assigned,Mud (muddy sediment),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.56,Q,Not Assigned,Gravel (Gravelly sediment),Present,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.57,Q,Not Assigned,Clastic sedimentary material,Dominant,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.155,QTb,Not Assigned,Basaltic lava,Dominant,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.153,QTb,Not Assigned,Lava autobreccia,Minor,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.154,QTb,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.111,QTv,Not Assigned,Volcanic-lithic sedimentary rock (tuffite),Minor,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.110,QTv,Not Assigned,Rhyolitic rock,Present,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.112,QTv,Not Assigned,Andesitic rock,Present,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.109,QTv,Not Assigned,Dacitic rock,Present,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.83,Qr,Not Assigned,Gravel (Gravelly sediment),Present,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.84,Qr,Not Assigned,Sandy gravel,Present,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.82,Qr,Not Assigned,Sand (sandy sediment),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.81,Qy,Not Assigned,Gravel (Gravelly sediment),Present,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.80,Qy,Not Assigned,Gravelly sand,Subordinate,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.78,Qy,Not Assigned,Mud (muddy sediment),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.79,Qy,Not Assigned,Sand (sandy sediment),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.42,Qm,Not Assigned,Gravelly sand,Subordinate,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.41,Qm,Not Assigned,Gravel (Gravelly sediment),Dominant,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.43,Qm,Not Assigned,Mud (muddy sediment),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.26,Qo,Not Assigned,Mud (muddy sediment),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.29,Qo,Not Assigned,Clastic sedimentary material,Dominant,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.28,Qo,Not Assigned,Sand (sandy sediment),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.27,Qo,Not Assigned,Gravel (Gravelly sediment),Present,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.122,QTs,Not Assigned,Sandstone (sandy rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.124,QTs,Not Assigned,Mudstone (mudrock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.123,QTs,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.50,Tvy,Not Assigned,Rhyolite lava,Present,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.48,Tvy,Not Assigned,Lava autobreccia,Minor,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.52,Tvy,Not Assigned,Volcanic-lithic sedimentary rock (tuffite),Minor,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.51,Tvy,Not Assigned,Pyroclastic breccia,Minor,0,Standard Confidence,GMA.DataSources.206
+GMA.StandardLithology.53,Tvy,Not Assigned,Dacitic lava,Present,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.49,Tvy,Not Assigned,Andesitic lava,Present,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.92,Tsy,Not Assigned,Gypsum sediment,Not specified,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.93,Tsy,Not Assigned,Clastic sedimentary material,Dominant,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.91,Tsy,Not Assigned,Gravel (Gravelly sediment),Dominant,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.16,Tby,Not Assigned,Lava autobreccia,Minor,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.15,Tby,Not Assigned,Basaltic lava,Dominant,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.14,Tby,Not Assigned,Volcanic lithic sediment,Minor,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.146,Tb,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.144,Tb,Not Assigned,Basaltic lava,Dominant,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.145,Tb,Not Assigned,Lava autobreccia,Minor,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.175,Tsv,Not Assigned,Sandstone (sandy rock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.176,Tsv,Not Assigned,Volcanic-lithic sedimentary rock (tuffite),Present,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.174,Tsv,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.173,Tsv,Not Assigned,Fine grained or porphyritic crystalline rock,Dominant,0,Standard Confidence,GMA.DataSources.204
+GMA.StandardLithology.38,Tsm,Not Assigned,Sandstone (sandy rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.37,Tsm,Not Assigned,Mudstone (mudrock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.36,Tsm,Not Assigned,Gypsum rock,Not specified,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.40,Tsm,Not Assigned,Sedimentary breccia,Minor,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.39,Tsm,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.74,Tv,Not Assigned,Volcanic-lithic sedimentary rock (tuffite),Subordinate,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.76,Tv,Not Assigned,Generic tuff,Present,0,Standard Confidence,GMA.DataSources.206
+GMA.StandardLithology.75,Tv,Not Assigned,Welded tuff,Subordinate,0,Standard Confidence,GMA.DataSources.200
+GMA.StandardLithology.77,Tv,Not Assigned,Fine grained or porphyritic crystalline rock,Dominant,0,Standard Confidence,GMA.DataSources.204
+GMA.StandardLithology.168,Tg,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.131,Ti,Not Assigned,Rhyolitic rock,Present,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.132,Ti,Not Assigned,Porphyritic normal composition igneous rock,Present,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.133,Ti,Not Assigned,Fine grained or porphyritic crystalline rock,Present,0,Standard Confidence,GMA.DataSources.204
+GMA.StandardLithology.129,Ti,Not Assigned,Andesitic rock,Present,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.130,Ti,Not Assigned,Dacitic rock,Present,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.17,TXgn,Not Assigned,Mylonitic rock,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.20,TXgn,Not Assigned,Layered gneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.18,TXgn,Not Assigned,Orthogneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.22,TXgn,Not Assigned,Pegmatite,Subordinate,0,Standard Confidence,GMA.DataSources.200
+GMA.StandardLithology.19,TXgn,Not Assigned,Non layered gneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.21,TXgn,Not Assigned,Augen gneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.181,Tso,Not Assigned,Sandstone (sandy rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.177,Tso,Not Assigned,Generic conglomeratic rock (conglomeratic rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.198
+GMA.StandardLithology.178,Tso,Not Assigned,Sandstone (sandy rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.179,Tso,Not Assigned,Mudstone (mudrock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.180,Tso,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.182,Tso,Not Assigned,Conglomeratic sandstone,Dominant,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.151,TKgm,Not Assigned,Peraluminous rock,Subordinate,0,Standard Confidence,GMA.DataSources.200
+GMA.StandardLithology.150,TKgm,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.134,TKg,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.136,Kv,Not Assigned,Rhyolitic rock,Minor,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.137,Kv,Not Assigned,Volcanic-lithic sedimentary rock (tuffite),Subordinate,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.138,Kv,Not Assigned,Dacitic rock,Present,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.139,Kv,Not Assigned,Andesitic rock,Present,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.140,Kv,Not Assigned,Welded tuff,Subordinate,0,Standard Confidence,GMA.DataSources.200
+GMA.StandardLithology.135,Kv,Not Assigned,Basaltic rock,Minor,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.158,KJo,Not Assigned,Quartzo feldspathic layered gneiss,Dominant,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.157,KJo,Not Assigned,Greenschist,Not specified,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.156,KJo,Not Assigned,Quartz feldspar schist,Dominant,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.3,KJs,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.2,KJs,Not Assigned,Mudstone (mudrock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.1,KJs,Not Assigned,Limestone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.5,KJs,Not Assigned,Sandstone (sandy rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.6,KJs,Not Assigned,Sedimentary breccia,Not specified,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.4,KJs,Not Assigned,Conglomeratic sandstone,Subordinate,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.141,Kmv,Not Assigned,Sandstone (sandy rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.143,Kmv,Not Assigned,Shale,Subordinate,0,Standard Confidence,GMA.DataSources.197
+GMA.StandardLithology.142,Kmv,Not Assigned,Coal,Not specified,0,Standard Confidence,GMA.DataSources.208
+GMA.StandardLithology.114,Ks,Not Assigned,Sandstone (sandy rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.115,Ks,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.113,Ks,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.25,Jm,Not Assigned,Sandstone (sandy rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.24,Jm,Not Assigned,Conglomeratic sandstone,Minor,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.23,Jm,Not Assigned,Mudstone (mudrock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.89,Jsv,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.90,Jsv,Not Assigned,Sandstone (sandy rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.85,Jsv,Not Assigned,Intermediate-composition fine-grained rock,Present,0,Standard Confidence,GMA.DataSources.202
+GMA.StandardLithology.86,Jsv,Not Assigned,Phyllite,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.87,Jsv,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.88,Jsv,Not Assigned,Volcanic-lithic sedimentary rock (tuffite),Minor,0,Standard Confidence,GMA.DataSources.196
+GMA.StandardLithology.159,Jg,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.172,Jv,Not Assigned,Sandstone (sensu stricto Folk),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.171,Jv,Not Assigned,Welded tuff,Dominant,0,Standard Confidence,GMA.DataSources.200
+GMA.StandardLithology.170,Jv,Not Assigned,Rhyolitic rock,Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.169,Jv,Not Assigned,Dacitic rock,Present,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.167,J^,Not Assigned,Dacitic rock,Present,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.162,J^,Not Assigned,Sandstone (sensu stricto Folk),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.166,J^,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.165,J^,Not Assigned,Sandstone (sandy rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.164,J^,Not Assigned,Calcsilicate foliated metamorphic rock,Minor,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.163,J^,Not Assigned,Rhyolitic rock,Present,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.116,}|,Not Assigned,Quartzo feldspathic granofels,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.117,}|,Not Assigned,Phyllite,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.118,}|,Not Assigned,Marble granofels,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.119,}|,Not Assigned,Quartz feldspar pelitic schist,Subordinate,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.120,}|,Not Assigned,Impure marble,Subordinate,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.121,}|,Not Assigned,Quartzite granofels,Minor,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.32,Js,Not Assigned,Dolostone,Not specified,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.33,Js,Not Assigned,Mudstone (mudrock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.34,Js,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.31,Js,Not Assigned,Bentonite,Not specified,0,Standard Confidence,GMA.DataSources.209
+GMA.StandardLithology.35,Js,Not Assigned,Sandstone (sandy rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.160,Jgc,Not Assigned,Mudstone (mudrock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.161,Jgc,Not Assigned,Sandstone (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.47,^c,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.45,^c,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.46,^c,Not Assigned,Sandstone (sandy rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.125,^cs,Not Assigned,Mudstone (mudrock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.126,^cs,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.127,^cs,Not Assigned,Conglomerate (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.128,^cs,Not Assigned,Gravelly sand,Subordinate,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.190,^m,Not Assigned,Sandstone (sandy rock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.189,^m,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.188,^m,Not Assigned,Gypsum rock,Not specified,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.191,^m,Not Assigned,Sandstone (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.197,|,Not Assigned,Mudstone (mudrock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.196,|,Not Assigned,Gypsum rock,Not specified,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.200,|,Not Assigned,Sandstone (sandy rock of SLTTs),Minor,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.195,|,Not Assigned,Sandstone (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.194,|,Not Assigned,Dolostone,Subordinate,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.193,|,Not Assigned,Impure dolostone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.199,|,Not Assigned,Limestone,Present,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.198,|,Not Assigned,Impure limestone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.192,|,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.187,P,Not Assigned,Limestone,Dominant,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.185,P,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.184,P,Not Assigned,Sandstone (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.183,P,Not Assigned,Gypsum rock,Minor,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.186,P,Not Assigned,Dolostone,Present,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.96,P*,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.102,P*,Not Assigned,Sandstone (sensu stricto Folk),Dominant,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.101,P*,Not Assigned,Sandstone (sandy rock of SLTTs),Subordinate,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.100,P*,Not Assigned,Dolostone,Present,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.99,P*,Not Assigned,Limestone,Present,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.98,P*,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.97,P*,Not Assigned,Gypsum sediment,Minor,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.67,M_,Not Assigned,Limestone,Present,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.66,M_,Not Assigned,Impure limestone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.65,M_,Not Assigned,Dolostone,Subordinate,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.64,M_,Not Assigned,Impure dolostone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.63,M_,Not Assigned,Sandstone (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.62,M_,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.61,M_,Not Assigned,Conglomeratic sandstone,Not specified,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.12,Ys,Not Assigned,Dolostone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.13,Ys,Not Assigned,Conglomeratic sandstone,Minor,0,Standard Confidence,GMA.DataSources.193
+GMA.StandardLithology.11,Ys,Not Assigned,Limestone,Minor,0,Standard Confidence,GMA.DataSources.205
+GMA.StandardLithology.10,Ys,Not Assigned,Mudstone (mudrock of SLTTs),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.9,Ys,Not Assigned,Sandstone (sensu stricto Folk),Present,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.8,Ys,Not Assigned,Basaltic rock,Not specified,0,Standard Confidence,GMA.DataSources.194
+GMA.StandardLithology.7,Ys,Not Assigned,Conglomerate (conglomeratic rock of SLTTs),Not specified,0,Standard Confidence,GMA.DataSources.201
+GMA.StandardLithology.103,Yd,Not Assigned,Doleritic rock,Dominant,0,Standard Confidence,GMA.DataSources.207
+GMA.StandardLithology.94,YXg,Not Assigned,Non layered gneiss,Subordinate,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.95,YXg,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.30,Yg,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.152,Xg,Not Assigned,Granitic rock (granitoid),Dominant,0,Standard Confidence,GMA.DataSources.203
+GMA.StandardLithology.60,Xms,Not Assigned,Phyllite,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.58,Xms,Not Assigned,Schist,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.59,Xms,Not Assigned,Metasedimentary rock,Dominant,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.149,Xq,Not Assigned,Quartzo feldspathic non layered gneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.147,Xq,Not Assigned,Metasedimentary rock,Dominant,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.148,Xq,Not Assigned,Quartzo feldspathic granofels,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.106,Xmv,Not Assigned,Generic gneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.104,Xmv,Not Assigned,Metasedimentary rock,Minor,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.105,Xmv,Not Assigned,Metarhyolite,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.108,Xmv,Not Assigned,Metavolcanic rock,Dominant,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.107,Xmv,Not Assigned,Greenschist,Minor,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.71,Xm,Not Assigned,Metavolcanic rock,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.70,Xm,Not Assigned,Orthogneiss,Present,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.69,Xm,Not Assigned,Schist,Subordinate,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.68,Xm,Not Assigned,Metacarbonate metamorphic rock,Not specified,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.73,Xm,Not Assigned,Generic gneiss,Dominant,0,Standard Confidence,GMA.DataSources.199
+GMA.StandardLithology.72,Xm,Not Assigned,Metasedimentary rock,Subordinate,0,Standard Confidence,GMA.DataSources.199

@@ -1,0 +1,31 @@
+geologicevents_id,event,agedisplay,ageyoungerterm,ageolderterm,timescale,ageyoungervalue,ageoldervalue,notes,datasourceid
+GMA.GeologicEvents.1,GMA.GeologicEvents.1,Late Triassic deposition,Late Triassic,Late Triassic,Not specified,206,227,"Chinle Formation, including Shinarump Conglomerate",GMA.DataSources.1
+GMA.GeologicEvents.10,GMA.GeologicEvents.10,Permian to Pennsylvanian,Permian,Pennsylvanian,Not assigned,248,323,Permian to Pennsylvanian sedimentary rocks Pennsylvanian to Permian,GMA.DataSources.1
+GMA.GeologicEvents.11,GMA.GeologicEvents.11,Permian,Permian,Permian,Not specified,248,290,Permian to Pennsylvanian sedimentary rocks Pennsylvanian to Permian,GMA.DataSources.1
+GMA.GeologicEvents.12,GMA.GeologicEvents.12,"Mississippian, Devonian, and Cambrian",Mississippian,Cambrian,Not specified,323,543,"Mississippian, Devonian, and Cambrian sedimentary rocks Cambrian, Devonian, and Mississippian",GMA.DataSources.1
+GMA.GeologicEvents.13,GMA.GeologicEvents.13,Middle Miocene to Oligocene Eruption,Middle Miocene,Oligocene,Not assigned,11.2,33.7,Middle Miocene to Oligocene volcanic rocks Oligocene to Middle Miocene,GMA.DataSources.1
+GMA.GeologicEvents.14,GMA.GeologicEvents.14,Oligocene to Paleocene[?],Oligocene,Paleocene,Not assigned,23.8,65,Oligocene to Paleocene[?] sedimentary rocks Paleocene(?) to Oligocene,GMA.DataSources.1
+GMA.GeologicEvents.15,GMA.GeologicEvents.15,Holocene to middle Pliocene,Holocene,Middle Pliocene,Not specified,0,5.3,Holocene to middle Pliocene volcanic rocks Middle Pliocene to Holocene,GMA.DataSources.1
+GMA.GeologicEvents.16,GMA.GeologicEvents.16,Early Pleistocene to latest Pliocene,Early Pleistocene,Latest Pliocene,Not specified,0.07,3.6,Early Pleistocene to latest Pliocene surficial deposits Late Pliocene to Early Pleistocene,GMA.DataSources.1
+GMA.GeologicEvents.17,GMA.GeologicEvents.17,Pliocene to late Miocene,Pliocene,Late Miocene,Not specified,1.8,11.2,Pliocene to late Miocene basaltic rocks Late Miocene to Pliocene,GMA.DataSources.1
+GMA.GeologicEvents.18,GMA.GeologicEvents.18,Pliocene to middle Miocene eruption,Pliocene,Middle Miocene,Not specified,1.8,20.5,Pliocene to middle Miocene volcanic rocks,GMA.DataSources.1
+GMA.GeologicEvents.19,GMA.GeologicEvents.19,"Middle Proterozoic, Apache Group deposition",Middle Proterozoic,Middle Proterozoic,Not specified,900,1600,Middle Proterozoic deposition of Apache Group,GMA.DataSources.1
+GMA.GeologicEvents.2,GMA.GeologicEvents.2,Middle to Late Jurassic,Middle Jurassic,Late Jurassic,Not specified,144,180,San Rafael Group Middle to Late Jurassic,GMA.DataSources.1
+GMA.GeologicEvents.20,GMA.GeologicEvents.20,Quaternary deposition,Quaternary,Quaternary,Not specified,0,1.8,"Quaternary surficial deposits, undivided Quaternary",GMA.DataSources.1
+GMA.GeologicEvents.21,GMA.GeologicEvents.21,Holocene deposition,Holocene,Holocene,Not specified,0,0.01,deposition in active channels,GMA.DataSources.1
+GMA.GeologicEvents.22,GMA.GeologicEvents.22,Cretaceous to Late Jurassic deposition,Cretaceous,Late Jurassic,Not specified,80,160,Cretaceous to Late Jurassic sedimentary rocks with minor volcanic rocks Late Jurassic to Cretaceous,GMA.DataSources.1
+GMA.GeologicEvents.23,GMA.GeologicEvents.23,Late to middle Miocene,Late Miocene,Middle Miocene,Not assigned,5.3,20.5,Late to middle Miocene basaltic rocks Middle to Late Miocene,GMA.DataSources.1
+GMA.GeologicEvents.24,GMA.GeologicEvents.24,Late Cretaceous to Early Tertiary (Laramide),Eocene,Late Cretaceous,Not specified,50,82,Orocopia Schist Late Cretaceous to Early Tertiary,GMA.DataSources.1
+GMA.GeologicEvents.25,GMA.GeologicEvents.25,Late Cretaceous,Late Cretaceous,Late Cretaceous,Not specified,84,88,Sedimentary rocks of the Late Cretaceous Mesaverde Group Late Cretaceous,GMA.DataSources.1
+GMA.GeologicEvents.26,GMA.GeologicEvents.26,Tertiary to Early Proterozoic,Miocene,Early Proterozoic,Not specified,16.4,1900,Tertiary to Early Proterozoic gneissic rocks Early Proterozoic to Tertiary,GMA.DataSources.1
+GMA.GeologicEvents.27,GMA.GeologicEvents.27,Early Proterozoic deposition and metamorphism,Early Proterozoic,Early Proterozoic,Not specified,1600,1900,Early Proterozoic sediment deposition and metamorphism,GMA.DataSources.1
+GMA.GeologicEvents.28,GMA.GeologicEvents.28,Early or Middle Proterozoic intrusion,Middle Proterozoic,Early Proterozoic,Not specified,1320,1900,Proterozoic granitic rocks Proterozoic,GMA.DataSources.1
+GMA.GeologicEvents.29,GMA.GeologicEvents.29,Cretaceous (early to middle) depsition,Late Cretaceous,Late Cretaceous,Not specified,88,97,Cretaceous sedimentary rocks Cretaceous,GMA.DataSources.1
+GMA.GeologicEvents.3,GMA.GeologicEvents.3,Jurassic to Cambrian,Jurassic,Cambrian,Not specified,144,543,Jurassic to Cambrian metamorphosed sedimentary rocks Cambrian to Jurassic,GMA.DataSources.1
+GMA.GeologicEvents.30,GMA.GeologicEvents.30,"Late and middle Pleistocene deposition, generic",Late Pleistocene,Middle Pleistocene,Not assigned,0.01,0.07,"generic age assignment for Late and Middle Pleistocene deposition, based on surface morphology, soil development and regional correlation",GMA.DataSources.1
+GMA.GeologicEvents.4,GMA.GeologicEvents.4,"Mississippian, Devonian, and Cambrian",Mississippian,Cambrian,Not specified,323,543,"Mississippian, Devonian, and Cambrian sedimentary rocks Cambrian, Devonian, and Mississippian",GMA.DataSources.1
+GMA.GeologicEvents.5,GMA.GeologicEvents.5,Early and Middle(?) Triassic,Middle Triassic,Early Triassic,Not specified,227,248,Moenkopi Formation Early and Middle(?) Triassic,GMA.DataSources.1
+GMA.GeologicEvents.6,GMA.GeologicEvents.6,Early Jurassic,Early Jurassic,Early Jurassic,Not specified,180,206,Glen Canyon Group Early Jurassic,GMA.DataSources.1
+GMA.GeologicEvents.7,GMA.GeologicEvents.7,Jurassic,Jurassic,Jurassic,Not specified,144,206,Jurassic volcanic rocks Jurassic,GMA.DataSources.1
+GMA.GeologicEvents.8,GMA.GeologicEvents.8,Late Jurassic,Late Jurassic,Late Jurassic,Not specified,144,159,Morrison Formation Late Jurassic,GMA.DataSources.1
+GMA.GeologicEvents.9,GMA.GeologicEvents.9,Paleozoic,Paleozoic,Paleozoic,Not assigned,248,543,Paleozoic sedimentary rocks Paleozoic,GMA.DataSources.1
