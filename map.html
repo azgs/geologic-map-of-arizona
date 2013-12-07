@@ -4,20 +4,61 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Geologic Map of Arizona</title>
-        <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
-        <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
-        <!--[if lte IE 8]>
-            <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'>
-        <![endif]-->
+        <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.js'></script>
+        <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.css' rel='stylesheet' />        
         <style>
             html, body, #map { height: 100%; width: 100%; margin: 0; padding: 0; }
+            @font-face{ 
+                font-family: 'FGDCGeoAge';
+                src: url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.eot');
+                src: url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.eot?#iefix') format('embedded-opentype'),
+                     url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.woff') format('woff'),
+                     url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.ttf') format('truetype'),
+                     url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.svg#FGDCGeoAge') format('svg');
+            }
+            .leaflet-control-grid { font-family: 'FGDCGeoAge'; }
         </style>
     </head>
     <body>
         <div id="map"></div>
         <script>
-            var map = L.mapbox.map('map', 'rclark.map-d4ubicoz');
-            L.mapbox.tileLayer('rclark.map-t7ep1mrm').addTo(map);
+            // Wrapping this in a function allows me to worry less about "polluting the global namespace"
+            (function () {
+                // ## Make an object in the global namespace that will house any variables I want to be global
+                this.geomapaz = {};
+
+                // ## Make some private variables:
+                // - Urls for tile sets
+                var urls = {
+                        geologicMap: 'http://a.tiles.usgin.org/geo-map-az/tiles.json',
+                        terrainBase: 'azgs.gg2fma89',
+                        roadsAndLabels: 'azgs.gg2gcchk'
+                    },
+
+                    // - An interaction layer that utilizes UTFGrids
+                    gridLayer = L.mapbox.gridLayer(urls.geologicMap),
+
+                    // - The map itself, with the terrain as a base layer
+                    map = this.geomapaz.map = L.mapbox.map('map', urls.terrainBase, {
+                        center: [34.1618,-111.6211],
+                        zoom: 7,
+                        maxZoom: 12
+                    });
+
+                // ## Add other layers to the map
+                // - Tiles for the Geologic Map
+                L.mapbox.tileLayer(urls.geologicMap).addTo(map);
+
+                // - Tiles for roads and labels as an overlay
+                L.mapbox.tileLayer(urls.roadsAndLabels).addTo(map);
+
+                // ## Put togther map interactions:
+                // - Add the grid layer to the map
+                gridLayer.addTo(map);
+
+                // - Add a control to display information from the grid layer
+                map.addControl(L.mapbox.gridControl(gridLayer));
+            }).call(window);
         </script>
     </body>
 </html>
