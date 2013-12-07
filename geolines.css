@@ -45,13 +45,11 @@
   /*Thrust Fault, Concealed*//*Detachment Fault, Concealed*/
   ["symbol"=295], 
   ["symbol"=299] {
-    ::dotted {
-      line-width: 2;
-      line-dasharray: 1, 7;
-      line-cap: round;
-      [zoom < 9] {
-        line-width: 0;
-      }
+    line-width: 2;
+    line-dasharray: 1, 7;
+    line-cap: round;
+    [zoom < 9] {
+      line-width: 0;
     }
   }
   
@@ -78,7 +76,8 @@
   }
   
   /*High-Angle Faults*/
-  ::high-angle-marker["symbol"=126] {
+  ["symbol"=126] {
+    marker-spacing: 45;
     marker-placement: line;
     marker-file: url("svg/high-angle.svg");
     marker-transform: "rotate(180) translate(0 -4)";
@@ -88,10 +87,11 @@
   }
   
   /*High-Angle Active Faults*/
-  ::high-angle-marker["symbol"=307] {
+  ["symbol"=307] {
+    marker-spacing: 45;
     marker-placement: line;
     marker-file: url("svg/high-angle-active.svg");
-    marker-transform: "rotate(180) translate(0 -9)";
+    marker-transform: "rotate(180) translate(0 -4)";
     [zoom < 9] {
       marker-spacing: 9999;
     }
