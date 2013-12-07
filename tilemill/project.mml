@@ -1,0 +1,135 @@
+{
+  "bounds": [
+    -115.1147,
+    31.1093,
+    -108.7427,
+    37.2478
+  ],
+  "center": [
+    -111.6211,
+    34.1618,
+    7
+  ],
+  "format": "png8",
+  "interactivity": {
+    "layer": "mapunitpolys",
+    "template_teaser": "<strong>{{{mapunit}}}</strong>",
+    "template_full": "<p><strong>{{{unitname}}}</strong></p>\n<p>{{{unitdescription}}}</p>"
+  },
+  "minzoom": 0,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "geolines.css",
+    "mapunitpolys.css",
+    "rasters.css"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -114.815223,
+        31.332033,
+        -109.044521,
+        37.003806
+      ],
+      "id": "mapunitpolys",
+      "class": "",
+      "Datasource": {
+        "file": "../data/MapUnitPolys-WithDescriptions.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mapunitpolys"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        -114.85670673310587,
+        31.31912459708976,
+        -108.96744159801551,
+        37.029364636545644
+      ],
+      "id": "arizonaslope",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/r/Documents/AZ Elevation/slope/arizona-slope.vrt",
+        "band": "1"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {
+        "band": "1"
+      },
+      "name": "arizonaslope"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        -114.85670673310587,
+        31.31912459708976,
+        -108.96744159801551,
+        37.029364636545644
+      ],
+      "id": "arizonashade",
+      "class": "shade",
+      "Datasource": {
+        "file": "/Users/r/Documents/AZ Elevation/shade/arizona-shade.vrt",
+        "band": "“1"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {
+        "band": "“1"
+      },
+      "name": "arizonashade"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -114.801023,
+        31.332346,
+        -109.04472,
+        37.003775
+      ],
+      "id": "contactsandfaults",
+      "class": "",
+      "Datasource": {
+        "file": "../data/ContactsAndFaults.geojson",
+        "id": "contactsandfaults",
+        "project": "geologic-map-of-arizona",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "contactsandfaults"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -114.815223,
+        31.332033,
+        -109.044521,
+        37.003806
+      ],
+      "id": "otherlines",
+      "class": "",
+      "Datasource": {
+        "file": "../data/OtherLines.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "otherlines"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Geologic Map of Arizona",
+  "description": "The Geologic Map of Arizona at 1:1,000,000-scale",
+  "attribution": "Arizona Geological Survey, 2013",
+  "legend": ""
+}
