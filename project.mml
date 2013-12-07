@@ -14,7 +14,12 @@
   "interactivity": {
     "layer": "mapunitpolys",
     "template_teaser": "<strong>{{{mapunit}}}</strong>",
-    "template_full": "<p><strong>{{{unitname}}}</strong></p>\n<p>{{{unitdescription}}}</p>"
+    "template_full": "<p><strong>{{{unitname}}}</strong></p>\n<p>{{{unitdescription}}}</p>",
+    "fields": [
+      "unitname",
+      "unitdescription",
+      "mapunit"
+    ]
   },
   "minzoom": 0,
   "maxzoom": 12,
@@ -36,7 +41,7 @@
       "id": "mapunitpolys",
       "class": "",
       "Datasource": {
-        "file": "../data/MapUnitPolys-WithDescriptions.geojson"
+        "file": "./data/MapUnitPolys-WithDescriptions.geojson"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -96,7 +101,7 @@
       "id": "contactsandfaults",
       "class": "",
       "Datasource": {
-        "file": "../data/ContactsAndFaults.geojson",
+        "file": "./data/ContactsAndFaults.geojson",
         "id": "contactsandfaults",
         "project": "geologic-map-of-arizona",
         "srs": ""
@@ -117,7 +122,7 @@
       "id": "otherlines",
       "class": "",
       "Datasource": {
-        "file": "../data/OtherLines.geojson"
+        "file": "./data/OtherLines.geojson"
       },
       "srs-name": "autodetect",
       "srs": "",
