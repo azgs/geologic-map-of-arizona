@@ -39,26 +39,24 @@
 
   // ## Show/Hide the Legend
   var showLegend = this.geomapaz.showLegend = function (label) {
-    if (!$('#wrapper').hasClass('legend-showing')) {
-      $('#wrapper').addClass('legend-showing');
-      if (label) {
-        label = label
-          .replace('{', 'Cz')
-          .replace(':', 'Pe')
-          .replace('}', 'Mz')
-          .replace('^', 'Tr')
-          .replace('|', 'Pz')
-          .replace('*', 'Pn')
-          .replace('_', 'C')
-          .replace('=', 'pC')
-          .replace('<', 'Pr')
-          .replace('`', 'Y3')
-          .replace('~', 'Y2');
+    if (!$('#wrapper').hasClass('legend-showing')) $('#wrapper').addClass('legend-showing');
+    if (label) {
+      label = label
+        .replace('{', 'Cz')
+        .replace(':', 'Pe')
+        .replace('}', 'Mz')
+        .replace('^', 'Tr')
+        .replace('|', 'Pz')
+        .replace('*', 'Pn')
+        .replace('_', 'C')
+        .replace('=', 'pC')
+        .replace('<', 'Pr')
+        .replace('`', 'Y3')
+        .replace('~', 'Y2');
 
-        var currentPosition = $('#legend').scrollTop(),
-          unitPosition = $('#' + label + '-label').position().top;
-        $('#legend').scrollTop(currentPosition + unitPosition);
-      }
+      var currentPosition = $('#legend').scrollTop(),
+        unitPosition = $('#' + label + '-label').position().top;
+      $('#legend').scrollTop(currentPosition + unitPosition);
     }
   };
 
