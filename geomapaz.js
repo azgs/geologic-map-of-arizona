@@ -26,7 +26,7 @@
   L.mapbox.tileLayer(urls.geologicMap).addTo(map);
 
   // - Tiles for roads and labels as an overlay
-  //L.mapbox.tileLayer(urls.roadsAndLabels).addTo(map);
+  L.mapbox.tileLayer(urls.roadsAndLabels).addTo(map);
 
   // ## Put togther map interactions:
   // - Add the grid layer to the map
