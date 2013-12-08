@@ -16,6 +16,27 @@
                      url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.ttf') format('truetype'),
                      url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.svg#FGDCGeoAge') format('svg');
             }
+            #branding {
+                position: absolute;
+                left: 10px;
+                bottom: 10px;
+            }
+
+            #logo {
+                display: inline-block;
+                background: url('http://azgs.github.io/logos/azgs-logo-64.png');
+                height: 64px;
+                width: 64px;
+                border: none;
+                vertical-align: middle;
+            }
+
+            .title {
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 1.5em;
+                vertical-align: middle;
+            }
             .geo-age { font-family: 'FGDCGeoAge'; }
             .leaflet-control-grid h3 { margin-bottom: 0; }
             .leaflet-control-grid p { margin-top: 10px;}
@@ -23,6 +44,10 @@
     </head>
     <body>
         <div id="map"></div>
+        <div id="branding">
+            <a href="http://azgs.az.gov"><div id="logo"></div></a>
+            <span class="title">The Geologic Map of Arizona</span>
+        </div>
         <script>
             // Wrapping this in a function allows me to worry less about "polluting the global namespace"
             (function () {
