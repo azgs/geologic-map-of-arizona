@@ -1,8 +1,34 @@
-html, body, #wrapper, #map { height: 100%; width: 100%; margin: 0; padding: 0; }
+#wrapper, #map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#wrapper {
+  -webkit-transition: -webkit-transform 0.3s linear;
+     -moz-transition: -moz-transform 0.3s linear;
+       -o-transition: -o-transform 0.3s linear;
+          transition: transform 0.3s linear;
+  -webkit-transform: translate3d(0,0,0);
+     -moz-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+       -o-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+}
+
 body { 
     overflow-x: hidden; 
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
+
 @font-face{ 
     font-family: 'FGDCGeoAge';
     src: url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.eot');
@@ -42,25 +68,6 @@ body {
 .leaflet-control-grid h3 { margin-bottom: 0; }
 .leaflet-control-grid p { margin-top: 10px; }
 .map-tooltip { max-width: 450px; }
-
-#wrapper {
-  position: relative;
-  -webkit-transition: -webkit-transform 0.3s linear;
-     -moz-transition: -moz-transform 0.3s linear;
-       -o-transition: -o-transform 0.3s linear;
-          transition: transform 0.3s linear;
-  -webkit-transform: translate3d(0,0,0);
-     -moz-transform: translate3d(0,0,0);
-      -ms-transform: translate3d(0,0,0);
-       -o-transform: translate3d(0,0,0);
-          transform: translate3d(0,0,0);
-  -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-perspective: 1000;
-          perspective: 1000;
-}
 
 #wrapper.legend-showing {
   -webkit-transform: translate3d(-450px,0,0);

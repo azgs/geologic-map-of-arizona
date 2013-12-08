@@ -44,22 +44,24 @@
       show = ' legend-showing';
     if (classes.indexOf(show) === -1) wrapper.className = classes + show;
 
-    label = label
-      .replace('{', 'Cz')
-      .replace(':', 'Pe')
-      .replace('}', 'Mz')
-      .replace('^', 'Tr')
-      .replace('|', 'Pz')
-      .replace('*', 'Pn')
-      .replace('_', 'C')
-      .replace('=', 'pC')
-      .replace('<', 'Pr')
-      .replace('`', 'Y3')
-      .replace('~', 'Y2');
+    if (label) {
+      label = label
+        .replace('{', 'Cz')
+        .replace(':', 'Pe')
+        .replace('}', 'Mz')
+        .replace('^', 'Tr')
+        .replace('|', 'Pz')
+        .replace('*', 'Pn')
+        .replace('_', 'C')
+        .replace('=', 'pC')
+        .replace('<', 'Pr')
+        .replace('`', 'Y3')
+        .replace('~', 'Y2');
 
-    var currentPosition = $('#legend').scrollTop(),
-      unitPosition = $('#' + label + '-label').position().top;
-    $('#legend').scrollTop(currentPosition + unitPosition);
+      var currentPosition = $('#legend').scrollTop(),
+        unitPosition = $('#' + label + '-label').position().top;
+      $('#legend').scrollTop(currentPosition + unitPosition);
+    }
   };
 
   var hideLegend = this.geomapaz.hideLegend = function () {
