@@ -13,7 +13,7 @@
   "format": "png8",
   "interactivity": {
     "layer": "mapunitpolys",
-    "template_teaser": "<h3>{{{mapunit}}}</h3>",
+    "template_teaser": "<h3 class=“geo-age\">{{{mapunit}}}</h3>",
     "template_full": "<h3>{{{unitname}}}</h3>\n<p>{{{unitdescription}}}</p>",
     "fields": [
       "unitname",
