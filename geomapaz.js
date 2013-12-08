@@ -26,7 +26,7 @@
   L.mapbox.tileLayer(urls.geologicMap).addTo(map);
 
   // - Tiles for roads and labels as an overlay
-  L.mapbox.tileLayer(urls.roadsAndLabels).addTo(map);
+  //L.mapbox.tileLayer(urls.roadsAndLabels).addTo(map);
 
   // ## Put togther map interactions:
   // - Add the grid layer to the map
@@ -39,34 +39,31 @@
 
   // ## Show/Hide the Legend
   var showLegend = this.geomapaz.showLegend = function (label) {
-    var wrapper = document.getElementById('wrapper'),
-      classes = wrapper.className,
-      show = ' legend-showing';
-    if (classes.indexOf(show) === -1) wrapper.className = classes + show;
+    if (!$('#wrapper').hasClass('legend-showing')) {
+      $('#wrapper').addClass('legend-showing');
+      if (label) {
+        label = label
+          .replace('{', 'Cz')
+          .replace(':', 'Pe')
+          .replace('}', 'Mz')
+          .replace('^', 'Tr')
+          .replace('|', 'Pz')
+          .replace('*', 'Pn')
+          .replace('_', 'C')
+          .replace('=', 'pC')
+          .replace('<', 'Pr')
+          .replace('`', 'Y3')
+          .replace('~', 'Y2');
 
-    if (label) {
-      label = label
-        .replace('{', 'Cz')
-        .replace(':', 'Pe')
-        .replace('}', 'Mz')
-        .replace('^', 'Tr')
-        .replace('|', 'Pz')
-        .replace('*', 'Pn')
-        .replace('_', 'C')
-        .replace('=', 'pC')
-        .replace('<', 'Pr')
-        .replace('`', 'Y3')
-        .replace('~', 'Y2');
-
-      var currentPosition = $('#legend').scrollTop(),
-        unitPosition = $('#' + label + '-label').position().top;
-      $('#legend').scrollTop(currentPosition + unitPosition);
+        var currentPosition = $('#legend').scrollTop(),
+          unitPosition = $('#' + label + '-label').position().top;
+        $('#legend').scrollTop(currentPosition + unitPosition);
+      }
     }
   };
 
   var hideLegend = this.geomapaz.hideLegend = function () {
-    var wrapper = document.getElementById('wrapper');
-    wrapper.className = wrapper.className.replace(/ legend-showing/g, '');
+    $('#wrapper').removeClass('legend-showing');
   };
 
 }).call(this);

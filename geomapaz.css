@@ -25,7 +25,7 @@
 }
 
 body { 
-    overflow-x: hidden; 
+    overflow: hidden;
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
