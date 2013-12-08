@@ -32,7 +32,7 @@ body {
 @font-face{ 
     font-family: 'FGDCGeoAge';
     src: url('fonts/fgdcgeoage.eot');
-    src: url('fgdc-geoage-font/fgdcgeoage.eot?#iefix') format('embedded-opentype'),
+    src: url('fonts/fgdcgeoage.eot?#iefix') format('embedded-opentype'),
          url('fonts/fgdcgeoage.woff') format('woff'),
          url('fonts/fgdcgeoage.ttf') format('truetype'),
          url('fonts/fgdcgeoage.svg#FGDCGeoAge') format('svg');
