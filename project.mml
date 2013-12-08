@@ -14,7 +14,7 @@
   "interactivity": {
     "layer": "mapunitpolys",
     "template_teaser": "<h3 class=“geo-age\">{{{mapunit}}}</h3>",
-    "template_full": "<h3>{{{unitname}}}</h3>\n<p>{{{unitdescription}}}</p>",
+    "template_full": "<h3>{{{unitname}}}</h3>\n<p>{{{unitdescription}}}</p>\n<a href=\"#\" onclick=“geomapaz.showLegend('{{{mapunit}}}')\">View the legend…</a>",
     "fields": [
       "unitname",
       "unitdescription",

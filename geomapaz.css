@@ -1,0 +1,140 @@
+html, body, #wrapper, #map { height: 100%; width: 100%; margin: 0; padding: 0; }
+body { 
+    overflow-x: hidden; 
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+@font-face{ 
+    font-family: 'FGDCGeoAge';
+    src: url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.eot');
+    src: url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.eot?#iefix') format('embedded-opentype'),
+         url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.woff') format('woff'),
+         url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.ttf') format('truetype'),
+         url('http://ncgmp09.github.io/fgdc-geoage-font/fgdcgeoage.svg#FGDCGeoAge') format('svg');
+}
+#logo {
+  display: inline-block;
+  background: url('http://azgs.github.io/logos/azgs-logo-64.png');
+  height: 64px;
+  width: 64px;
+  border: none;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 100;
+}
+
+#title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 64px;
+  position: absolute;
+  left: 42px;
+  bottom: 10px;
+  padding-left: 42px;
+  padding-right: 10px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.75);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.geo-age { font-family: 'FGDCGeoAge'; }
+.leaflet-control-grid h3 { margin-bottom: 0; }
+.leaflet-control-grid p { margin-top: 10px; }
+.map-tooltip { max-width: 450px; }
+
+#wrapper {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s linear;
+     -moz-transition: -moz-transform 0.3s linear;
+       -o-transition: -o-transform 0.3s linear;
+          transition: transform 0.3s linear;
+  -webkit-transform: translate3d(0,0,0);
+     -moz-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+       -o-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+}
+
+#wrapper.legend-showing {
+  -webkit-transform: translate3d(-450px,0,0);
+     -moz-transform: translate3d(-450px,0,0);
+      -ms-transform: translate3d(-450px,0,0);
+       -o-transform: translate3d(-450px,0,0);
+          transform: translate3d(-450px,0,0);
+}
+
+#legend {
+  width: 450px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  right: -450px;
+}
+
+#legend * {
+  margin: 0px;
+  padding: 0px;
+}
+
+#legend li {
+  list-style-type: none;
+}
+
+#legend svg {
+  width: 72px;
+  height: 72px;
+  position: relative;
+  float: left;
+}
+
+#legend .unit-label {
+  font-family: "FGDCGeoAge";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#legend .description {
+  margin-left: 88px;
+}
+
+#legend .description-container {
+  margin-top: 25px;
+  padding: 0px 25px;
+}
+
+#legend .description-title {
+  position: relative;
+  top: 5px;
+  margin-bottom: 10px;
+}
+
+#legend .clear-float { clear: both; }
+
+#hide-legend {
+  position: fixed;
+  right: -424px;
+  top: 0;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  text-indent: -999em;
+  overflow: hidden;
+  background-position: 0 -52px;
+  background-image: url('http://api.tiles.mapbox.com/mapbox.js/v1.5.1/images/icons-404040.png');
+  background-size: 26px 260px;
+}
