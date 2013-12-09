@@ -50,7 +50,6 @@ body {
 }
 
 #title {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 64px;
@@ -93,6 +92,13 @@ body {
 
 #legend li {
   list-style-type: none;
+}
+
+#legend .description, #legend h3 {
+  color: #404040;
+  color: rgba(0, 0, 0, 0.74902);
+  font-size: 15px;
+  line-height: 25px;
 }
 
 #legend svg {
