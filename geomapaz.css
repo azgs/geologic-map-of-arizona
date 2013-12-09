@@ -145,3 +145,7 @@ body {
   background-image: url('http://api.tiles.mapbox.com/mapbox.js/v1.5.1/images/icons-404040.png');
   background-size: 26px 260px;
 }
+
+.map-clickable {
+  cursor: pointer;
+}
