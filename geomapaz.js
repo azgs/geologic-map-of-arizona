@@ -17,8 +17,10 @@
     // - The map itself, with the terrain as a base layer
     map = this.geomapaz.map = L.mapbox.map('map', urls.terrainBase, {
       center: [34.1618,-111.6211],
+      maxBounds: L.latLngBounds([[29.96818929679422,-126.13671875],[38.34395908944491,-97.226318359375]]),
       zoom: 7,
-      maxZoom: 12
+      maxZoom: 12,
+      minZoom: 5
     });
 
   // ## Add other layers to the map
