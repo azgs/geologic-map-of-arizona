@@ -514,13 +514,41 @@
           </li>
         </ul>
       </div>
-      <a id="hide-legend" href="#" onclick="geomapaz.hideLegend()">
+
+      <a id="hide-unit-legend" class="hide-legend" href="#" onclick="geomapaz.hideLegend()">
         <span class="right-triangle"></span>
       </a>
       <div id="map"></div>
     </div>
     <a href="http://azgs.az.gov"><div id="logo"></div></a>
     <div id="title">The Geologic Map of Arizona</div>
+    <div id="left-legend" class="shown">
+      <a id="hide-line-legend" class="hide-legend" href="#" onclick="geomapaz.toggleLineLegend()">
+        <div id="line-legend-triangle" class="left-triangle"></div>
+      </a>
+      <ul id="line-legend">
+        <li>
+            <div class="line-img contacts"></div>
+            <div class="line-description">Contacts between units</div>
+        </li>
+        <li>
+            <div class="line-img quaternary-fault"></div>
+            <div class="line-description">Quaternary faults</div>
+        </li>
+        <li>
+            <div class="line-img high-angle-fault"></div>
+            <div class="line-description">High-angle fault</div>
+        </li>
+        <li>
+            <div class="line-img detachment-fault"></div>
+            <div class="line-description">Detachment fault</div>
+        </li>
+        <li>
+            <div class="line-img thrust-fault"></div>
+            <div class="line-description">Thrust fault</div>
+        </li>
+    </ul>
+    </div>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="geomapaz.js"></script>
   </body>

@@ -1,6 +1,6 @@
 # The Geologic Map of Arizona
 
-![Geologic Map of Arizona](http://azgs.github.io/geologic-map-of-arizona/preview.png)
+![Geologic Map of Arizona](http://azgs.github.io/geologic-map-of-arizona/img/preview.png)
 
 This site contains data files representing the Geologic Map of Arizona at 1:1,000,000-scale. This map was built by the Arizona Geological Survey (AZGS) as a compilation of data from a wide variety of sources. The publication is available as part of the AZGS [Digital Geologic Map Series](http://repository.azgs.az.gov/facets/results/og%3A432) and can be purchased at the [AZGS Store](http://store.azgs.az.gov/product/maps/geologic-map-arizona-39x27).
 

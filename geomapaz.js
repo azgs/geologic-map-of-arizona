@@ -66,4 +66,16 @@
     $('#wrapper').removeClass('legend-showing');
   };
 
+  var toggleLineLegend = this.geomapaz.toggleLineLegend = function () {
+    if ($('#left-legend').hasClass('shown')) {
+      $('#left-legend').removeClass('shown');
+      $('#line-legend-triangle').removeClass('left-triangle');
+      $('#line-legend-triangle').addClass('right-triangle');
+    } else {
+      $('#left-legend').addClass('shown');
+      $('#line-legend-triangle').removeClass('right-triangle');
+      $('#line-legend-triangle').addClass('left-triangle');
+    }
+  }
+
 }).call(this);

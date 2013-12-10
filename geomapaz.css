@@ -6,7 +6,7 @@
   right: 0;
 }
 
-#wrapper {
+#wrapper, #left-legend {
   -webkit-transition: -webkit-transform 0.3s linear;
      -moz-transition: -moz-transform 0.3s linear;
        -o-transition: -o-transform 0.3s linear;
@@ -136,7 +136,7 @@ body {
 
 #legend .clear-float { clear: both; }
 
-#hide-legend {
+.hide-legend {
   position: fixed;
   right: -25px;
   top: 50%;
@@ -145,11 +145,17 @@ body {
   height: 80px;
   margin-top: -40px;
   background-color: #f2f2f2;
+  background-color: rgba(255,255,255,0.85);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-#hide-legend:hover {
+#hide-line-legend {
+  position: absolute;
+  left: 300px;
+}
+
+.hide-legend:hover {
   background-color: #d3d3d3;
 }
 
@@ -165,6 +171,18 @@ body {
   left: 5px;
 }
 
+.left-triangle {
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent;
+  border-right-color: #868686;
+  border-right-color: rgba(0,0,0,0.3);
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  right: 10px;
+}
+
 .map-tooltip-content a {
   display: block;
   text-align: right;
@@ -172,4 +190,78 @@ body {
 
 .map-clickable {
   cursor: pointer;
+}
+
+#left-legend {
+  position: absolute;
+  top: 50%;
+  left: -300px;
+  margin-top: -230px;
+}
+
+#line-legend {
+  list-style-type: none;
+  width: 290px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+  background-color: rgba(255,255,255,0.85);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#left-legend.shown {
+  -webkit-transform: translate3d(300px,0,0);
+     -moz-transform: translate3d(300px,0,0);
+      -ms-transform: translate3d(300px,0,0);
+       -o-transform: translate3d(300px,0,0);
+          transform: translate3d(300px,0,0);
+}
+
+#line-legend li {
+  padding: 5px;
+}
+
+.line-img {
+  height: 80px;
+  width: 80px;
+  float: left;
+  -webkit-box-shadow: 2px 2px 3px #d3d3d3;
+  -moz-box-shadow: 2px 2px 3px #d3d3d3;
+  box-shadow: 2px 2px 3px #d3d3d3;
+}
+
+.line-img.contacts {
+  background-image: url('img/contacts.png');
+}
+
+.line-img.quaternary-fault {
+  background-image: url('img/quaternary-fault.png');
+}
+
+.line-img.high-angle-fault {
+  background-image: url('img/high-angle-fault.png');
+}
+
+.line-img.detachment-fault {
+  background-image: url('img/detachment-fault.png');
+}
+
+.line-img.thrust-fault {
+  background-image: url('img/thrust-fault.png');
+}
+
+.line-description {
+  margin-left: 10px;
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.line-description:after {
+  content: "";
+  display: block;
+  clear: both;
 }
