@@ -137,7 +137,7 @@ body {
 #legend .clear-float { clear: both; }
 
 .hide-legend {
-  position: fixed;
+  position: absolute;
   right: -25px;
   top: 50%;
   display: inline-block;
@@ -186,6 +186,12 @@ body {
 .map-tooltip-content a {
   display: block;
   text-align: right;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.map-tooltip-content a:before {
+  content: ">> ";
 }
 
 .map-clickable {
