@@ -14,21 +14,26 @@
     // - An interaction layer that utilizes UTFGrids
     gridLayer = L.mapbox.gridLayer(urls.geologicMap),
 
-    // - The map itself, with the terrain as a base layer
+    // - The map itself
     map = this.geomapaz.map = L.mapbox.map('map', urls.terrainBase, {
       center: [34.1618,-111.6211],
       maxBounds: L.latLngBounds([[29.96818929679422,-126.13671875],[38.34395908944491,-97.226318359375]]),
       zoom: 7,
       maxZoom: 12,
-      minZoom: 5
+      minZoom: 5,
+      tileLayer: false
     });
 
   // ## Add other layers to the map
+
+  // - Tiles for the terrain base
+  L.mapbox.tileLayer(urls.terrainBase, {detectRetina: true}).addTo(map);
+  
   // - Tiles for the Geologic Map
-  L.mapbox.tileLayer(urls.geologicMap).addTo(map);
+  L.mapbox.tileLayer(urls.geologicMap, {detectRetina: true}).addTo(map);
 
   // - Tiles for roads and labels as an overlay
-  L.mapbox.tileLayer(urls.roadsAndLabels).addTo(map);
+  L.mapbox.tileLayer(urls.roadsAndLabels, {detectRetina: true}).addTo(map);
 
   // ## Put togther map interactions:
   // - Add the grid layer to the map
